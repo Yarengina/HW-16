@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderReady /> should render successfully and match snapshot 1`] = `
+<div>
+  <div
+    class="BookDesc"
+  >
+    <h1>
+      Receipt
+    </h1>
+    <p>
+      Name: 
+      <strong />
+    </p>
+    <p>
+      Email: 
+      <strong />
+    </p>
+    <p>
+      Phone: 
+      <strong />
+    </p>
+    <p>
+      Total Quantity: 
+      <strong />
+    </p>
+    <p>
+      Total Price: 
+      <strong>
+         руб.
+      </strong>
+    </p>
+    <button
+      class="ButtonBack"
+      type="button"
+    >
+      Back to cart
+    </button>
+  </div>
+</div>
+`;

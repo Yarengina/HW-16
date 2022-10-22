@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDetail /> should render successfully and match snapshot 1`] = `
+<div>
+  <div
+    class="BookField"
+  >
+    <div
+      class="Book"
+      data-testid="todo-101"
+    >
+      <p
+        class="Title"
+      >
+        Война и мир - Л.Н.Толстой
+      </p>
+      <p
+        class="Price"
+      >
+        800
+      </p>
+      <a
+        class="ReadMoreLink"
+        href="/101"
+      >
+        Read more
+      </a>
+      <div
+        class="Counter"
+      >
+        <button
+          class="Buttons Plus"
+          type="button"
+        >
+          Remove item
+        </button>
+        <p
+          class="Quantity"
+        >
+          0
+        </p>
+        <button
+          class="Buttons Minus"
+          type="button"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

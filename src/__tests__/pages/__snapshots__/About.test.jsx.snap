@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> should render successfully and match snapshot 1`] = `
+<div>
+  <nav
+    class="LinkField"
+  >
+    <a
+      aria-current="page"
+      class="Link active"
+      data-testid="login-link"
+      href="/"
+    >
+      <span>
+        Login
+      </span>
+    </a>
+    <a
+      class="Link"
+      data-testid="about-link"
+      href="/about"
+    >
+      <span>
+        About
+      </span>
+    </a>
+    <a
+      class="Link"
+      data-testid="order-link"
+      href="/order"
+    >
+      <span>
+        Order
+      </span>
+    </a>
+  </nav>
+  <div
+    class="About"
+  >
+    <h2>
+      О магазине
+    </h2>
+    <p>
+      Магазин книг
+    </p>
+  </div>
+</div>
+`;

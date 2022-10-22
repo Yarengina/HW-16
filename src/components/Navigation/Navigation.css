@@ -1,0 +1,26 @@
+.LinkField {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.Link {
+    text-decoration: none;
+    color: rgb(60, 65, 180);
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.Link.active {
+    opacity: 0.5;
+    border-bottom: 1px solid;
+    cursor: default;
+}
+
+.Link:hover {
+    opacity: 0.6;
+    border-bottom: 1px solid;
+}

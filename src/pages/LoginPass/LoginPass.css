@@ -1,0 +1,40 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Input {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+
+.Button {
+    width: 230px;
+    height: 38px;
+    background-color: rgb(60, 65, 180);
+    color: white;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 0px 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Error {
+    color: red;
+    font-size: 14px;
+}

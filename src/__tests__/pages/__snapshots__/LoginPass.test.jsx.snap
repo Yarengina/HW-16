@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPass /> should render successfully and match snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      class="LinkField"
+    >
+      <a
+        aria-current="page"
+        class="Link active"
+        data-testid="login-link"
+        href="/"
+      >
+        <span>
+          Login
+        </span>
+      </a>
+      <a
+        class="Link"
+        data-testid="about-link"
+        href="/about"
+      >
+        <span>
+          About
+        </span>
+      </a>
+      <a
+        class="Link"
+        data-testid="order-link"
+        href="/order"
+      >
+        <span>
+          Order
+        </span>
+      </a>
+    </nav>
+    <form
+      class="Form"
+    >
+      <div
+        class="Inputs"
+      >
+        <input
+          class="Input"
+          id="1"
+          name="email"
+          placeholder="Enter your email..."
+          type="email"
+          value=""
+        />
+        <span
+          class="Error"
+        />
+      </div>
+      <div
+        class="Inputs"
+      >
+        <input
+          class="Input"
+          id="2"
+          name="password"
+          placeholder="Enter your password..."
+          type="password"
+          value=""
+        />
+        <span
+          class="Error"
+        />
+      </div>
+      <button
+        class="Button"
+        type="button"
+      >
+        Log in
+      </button>
+    </form>
+  </div>
+</div>
+`;

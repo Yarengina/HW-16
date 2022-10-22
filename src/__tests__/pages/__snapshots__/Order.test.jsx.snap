@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Order /> should render successfully and match snapshot 1`] = `
+<div>
+  <nav
+    class="LinkField"
+  >
+    <a
+      aria-current="page"
+      class="Link active"
+      data-testid="login-link"
+      href="/"
+    >
+      <span>
+        Login
+      </span>
+    </a>
+    <a
+      class="Link"
+      data-testid="about-link"
+      href="/about"
+    >
+      <span>
+        About
+      </span>
+    </a>
+    <a
+      class="Link"
+      data-testid="order-link"
+      href="/order"
+    >
+      <span>
+        Order
+      </span>
+    </a>
+  </nav>
+  <div
+    class="BookField"
+  >
+    <div
+      class="Book"
+      data-testid="todo-101"
+    >
+      <p
+        class="Title"
+      >
+        Война и мир - Л.Н.Толстой
+      </p>
+      <p
+        class="Price"
+      >
+        800
+      </p>
+      <a
+        class="ReadMoreLink"
+        href="/101"
+      >
+        Read more
+      </a>
+      <div
+        class="Counter"
+      >
+        <button
+          class="Buttons Plus"
+          type="button"
+        >
+          Remove item
+        </button>
+        <p
+          class="Quantity"
+        >
+          0
+        </p>
+        <button
+          class="Buttons Minus"
+          type="button"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="Book"
+      data-testid="todo-102"
+    >
+      <p
+        class="Title"
+      >
+        Две жизни - К.Е.Антарова
+      </p>
+      <p
+        class="Price"
+      >
+        700
+      </p>
+      <a
+        class="ReadMoreLink"
+        href="/102"
+      >
+        Read more
+      </a>
+      <div
+        class="Counter"
+      >
+        <button
+          class="Buttons Plus"
+          type="button"
+        >
+          Remove item
+        </button>
+        <p
+          class="Quantity"
+        >
+          0
+        </p>
+        <button
+          class="Buttons Minus"
+          type="button"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="Book"
+      data-testid="todo-103"
+    >
+      <p
+        class="Title"
+      >
+        Разговор с богом - Н.Д.Уолша
+      </p>
+      <p
+        class="Price"
+      >
+        1000
+      </p>
+      <a
+        class="ReadMoreLink"
+        href="/103"
+      >
+        Read more
+      </a>
+      <div
+        class="Counter"
+      >
+        <button
+          class="Buttons Plus"
+          type="button"
+        >
+          Remove item
+        </button>
+        <p
+          class="Quantity"
+        >
+          0
+        </p>
+        <button
+          class="Buttons Minus"
+          type="button"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="Book"
+      data-testid="todo-104"
+    >
+      <p
+        class="Title"
+      >
+        Хохот Шамана - В.П.Серкин
+      </p>
+      <p
+        class="Price"
+      >
+        600
+      </p>
+      <a
+        class="ReadMoreLink"
+        href="/104"
+      >
+        Read more
+      </a>
+      <div
+        class="Counter"
+      >
+        <button
+          class="Buttons Plus"
+          type="button"
+        >
+          Remove item
+        </button>
+        <p
+          class="Quantity"
+        >
+          0
+        </p>
+        <button
+          class="Buttons Minus"
+          type="button"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="Book"
+      data-testid="todo-105"
+    >
+      <p
+        class="Title"
+      >
+        Хроники Ехо - Макс Фрай
+      </p>
+      <p
+        class="Price"
+      >
+        400
+      </p>
+      <a
+        class="ReadMoreLink"
+        href="/105"
+      >
+        Read more
+      </a>
+      <div
+        class="Counter"
+      >
+        <button
+          class="Buttons Plus"
+          type="button"
+        >
+          Remove item
+        </button>
+        <p
+          class="Quantity"
+        >
+          0
+        </p>
+        <button
+          class="Buttons Minus"
+          type="button"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+  <button
+    class="ButtonReady"
+    data-testid="button-ready"
+    type="button"
+  >
+    Ready
+  </button>
+</div>
+`;

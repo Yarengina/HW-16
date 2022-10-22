@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserOrder /> should render successfully and match snapshot 1`] = `
+<div>
+  <section
+    class="InputData"
+  >
+    <h1>
+      Input data
+    </h1>
+    <div
+      class="UserInputs"
+    >
+      <label
+        for="usermail"
+      >
+        Email: 
+      </label>
+      <input
+        class="UserInput"
+        data-testid="usermail"
+        id="usermail"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      class="UserInputs"
+    >
+      <label
+        for="userphone"
+      >
+        Phone: 
+      </label>
+      <input
+        class="UserInput"
+        data-testid="userphone"
+        id="userphone"
+        type="tel"
+        value=""
+      />
+    </div>
+    <div
+      class="UserInputs"
+    >
+      <label
+        for="username"
+      >
+        Name: 
+      </label>
+      <input
+        class="UserInput"
+        id="username"
+        type="text"
+      />
+    </div>
+    <div>
+      <button
+        class="ButtonBack"
+        type="button"
+      >
+        Back to cart
+      </button>
+      <button
+        class="ButtonSend"
+        type="button"
+      >
+        Send
+      </button>
+    </div>
+  </section>
+</div>
+`;

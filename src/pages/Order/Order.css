@@ -1,0 +1,80 @@
+.Total {
+    text-align: initial;
+}
+
+.BookField {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.Book {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+}
+
+.Title {
+    width: 150px;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.Price {
+    text-align: initial;
+    padding-left: 10px;
+}
+
+.ReadMoreLink {
+    color: #0000ffbd;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.Counter {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Quantity {
+    width: 10px;
+    color: gray;
+    padding-top: 2px;
+    margin: 0px 2px;
+}
+
+.Buttons {
+    width: 84px;
+    height: 30px;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    border: initial;
+    border-radius: 3px;
+}
+
+.Minus {
+    background-color: #4caf50;
+}
+
+.Plus {
+    background-color: #ff0000a6;
+}
+
+.ButtonReady {
+    width: 100px;
+    height: 34px;
+    background-color: #4caf50;
+    border: initial;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 6px;
+}
