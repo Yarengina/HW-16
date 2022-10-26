@@ -13,7 +13,7 @@ function Counter() {
             <button
                 className="Buttons Plus"
                 type="button"
-                onClick={() => dispatch(decrementCounter)}
+                onClick={() => dispatch(decrementCounter())}
             >
                 Remove item
             </button>
@@ -21,7 +21,7 @@ function Counter() {
             <button
                 className="Buttons Minus"
                 type="button"
-                onClick={() => dispatch(incrementCounter)}
+                onClick={() => dispatch(incrementCounter())}
             >
                 Add to cart
             </button>
