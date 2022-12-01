@@ -1,16 +1,25 @@
 // eslint-disable-next-line no-unused-vars
 import * as React from 'react'
-import { useState, useContext } from 'react'
+import { useContext, useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import OrderDetail from './OrderDetail'
 import OrderInfoContext from '../../contexts/OrderInfoContext'
-import booksStub from '../../components/booksStub'
 import './Order.css'
 import Navigation from '../../components/Navigation/Navigation'
+import { fetchBooks } from '../../redux/thunk'
+import { bookListSelector } from '../../redux/selectors'
 
 function Order() {
-    const [books, setBooks] = useState(booksStub())
     const { order, setOrder } = useContext(OrderInfoContext)
+
+    const dispatch = useDispatch()
+
+    const books = useSelector(bookListSelector)
+
+    useEffect(() => {
+        dispatch(fetchBooks())
+    }, [])
 
     const navigate = useNavigate()
 
@@ -26,9 +35,7 @@ function Order() {
     )
 
     const setQuantity = (id, quantity) => {
-        setBooks(
-            books.map((book) => (book.id !== id ? book : { ...book, quantity }))
-        )
+        books.map((book) => (book.id !== id ? book : { ...book, quantity }))
     }
 
     const handleReady = () => {
